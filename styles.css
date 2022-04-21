@@ -1,5 +1,8 @@
-body * {
-}
+@import './css/footer.css';
+@import './css/hero.css';
+@import './css/nav.css';
+@import './css/show-list.css';
+
 body {
   display: flex;
   flex-direction: column;
