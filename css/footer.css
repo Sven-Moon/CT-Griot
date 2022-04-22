@@ -1,0 +1,31 @@
+footer {
+  display: flex;
+  background-color: black;
+  color: white;
+  padding: 3rem;
+}
+
+.footer__column {
+  width: 25%;
+}
+.footer__image {
+  object-fit: contain;
+  width: 100%;
+}
+footer ul {
+  margin: 0;
+}
+
+.footer__column li:first-child {
+  font-size: 2rem;
+}
+.footer__column li {
+  margin-bottom: 2rem;
+  list-style: none;
+  font-size: .7rem;
+}
+i {
+  margin-right: .5rem;
+  color: orange;
+  font-size: 1rem;
+}

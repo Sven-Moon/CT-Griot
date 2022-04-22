@@ -1,0 +1,19 @@
+#hero {
+  display: flex;
+  /* size */
+  width: 100%;
+  color: white;
+  height: 400px;
+  /* image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('../images/theater-image-background.png');
+  background-position: center;
+  /* text */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: clamp(3rem, 4rem, 9vw);
+  font-family: 'Roboto';
+  margin-bottom: 4rem;
+}

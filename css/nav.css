@@ -1,0 +1,26 @@
+header {
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: black;  
+  height: 2rem;
+}
+.word-swell {  
+  margin-left: 2rem;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+nav {
+  font-size: small;
+  margin-inline: auto;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+
+}
+nav li {
+  margin-inline: 1rem;
+}
